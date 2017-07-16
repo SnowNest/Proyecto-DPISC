@@ -8,12 +8,5 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-  items: FirebaseListObservable<any[]>;
-
-  constructor(afDB: AngularFireDatabase) {
-    this.items = afDB.list('/bdejemplo');
-  }
-
   title = 'app';
 }
