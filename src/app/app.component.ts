@@ -9,4 +9,10 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 })
 export class AppComponent {
   title = 'app';
+
+  login(usuario: string, contraseña: string){
+
+    console.log('Nope');
+
+  }
 }
